@@ -6,10 +6,17 @@ public class PlayerMovement : MonoBehaviour
 {
 
 
+
 public float playerSpeed;
+public GenericAbility myAbility;
+private Vector2 currentDirection = new Vector2(1f,0f);
+
 
 private Rigidbody2D playerRigidBody;
 private Vector3 movement;
+
+
+
 
 private Animator playerAnimation;
 
@@ -24,13 +31,33 @@ private Animator playerAnimation;
     // Update is called once per frame
     void FixedUpdate()
     {
-        movement = Vector3.zero;
+
+        //This will allow players to use abilities/shoot etc
+
+        if(Input.GetButtonDown("Ability")){
+            Debug.Log("This is a test");
+
+            myAbility.Ability(transform.position, currentDirection, playerAnimation, playerRigidBody );
+
+        }
+
+
+
+
+        movement = Vector2.zero;
 
         //Getting the horizontal axis
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
+        if(movement.magnitude>0){
+            currentDirection = movement;
+        }
         
+        
+
+
+
         Movement();
         playerAnimation.SetFloat("horizontalMovement",movement.x);
        
@@ -45,6 +72,12 @@ private Animator playerAnimation;
         //I had to normalize the vector to make sure that the mvement is not faster moving diagonally
 
     }
+
+    public IEnumerator AbilityEnum(){
+
+        return null;
+    }
+
 
 
 }
