@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e9d991a78331c4599a6832e8ef0875, type: 3}
+  m_Name: Shooting Ability
+  m_EditorClassIdentifier: 
+  myObject: {fileID: 6613843732186988833, guid: 220cd7a0916e26842a23ec7a15e1de5c,
+    type: 3}
