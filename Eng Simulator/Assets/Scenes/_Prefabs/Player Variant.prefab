@@ -103,6 +103,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4417618970551119902, guid: 3f425b050d82f5049862de6fd39fccb1,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4417618970551119903, guid: 3f425b050d82f5049862de6fd39fccb1,
         type: 3}
       propertyPath: m_WasSpriteAssigned
