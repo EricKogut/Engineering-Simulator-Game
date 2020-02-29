@@ -48,6 +48,7 @@ private Animator playerAnimation;
         
 
         if(movement.magnitude>0){
+            Debug.Log("T");
             currentDirection = movement;
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
