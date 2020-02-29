@@ -49,9 +49,12 @@ private Animator playerAnimation;
         //Getting the horizontal axis
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        
 
         if(movement.magnitude>0){
             currentDirection = movement;
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
         }
         
         
