@@ -2076,7 +2076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 5
-  myAbility: {fileID: 0}
+  myAbility: {fileID: 11400000, guid: bf91941c1db90d2409f0657292390d1c, type: 2}
 --- !u!4 &501977022 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7545662287736300799, guid: 5e3907e19a410bc44b30d0884f995c21,
@@ -2092,9 +2092,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 501977016}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66469be0a62a3684e8921c730b4764f4, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &501977024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501977016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78bf67e04f959a740a9c5bd999a43b04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myScene: 
 --- !u!1 &550984415
 GameObject:
   m_ObjectHideFlags: 0

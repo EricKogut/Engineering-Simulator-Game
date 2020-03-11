@@ -42,26 +42,26 @@ private Animator playerAnimation;
         }
 
 
+        //Resetting the movement
         movement = Vector2.zero;
 
         //Getting the horizontal axis
-        
 
-        if(movement.magnitude>0){
-            Debug.Log("T");
-            currentDirection = movement;
+            
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
-        }
+
         
         
 
 
-
+     if(movement.magnitude>0){
         Movement();
+        currentDirection = movement;
         playerAnimation.SetFloat("horizontalMovement",movement.x);
        
         playerAnimation.SetFloat("verticalMovement",movement.y);
+     }
     }
 
 
