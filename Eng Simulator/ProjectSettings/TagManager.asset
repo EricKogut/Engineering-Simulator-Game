@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - SEB_Building
-  - location
   layers:
   - Default
   - TransparentFX
