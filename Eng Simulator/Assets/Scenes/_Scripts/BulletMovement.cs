@@ -29,4 +29,18 @@ public class BulletMovement : MonoBehaviour
         Debug.Log("MOVINGS");
         Debug.Log(direction);
     }
+    
+     void OnTriggerEnter2D(Collider2D theObject){
+
+        if(theObject.gameObject.CompareTag("enemy")){
+            Destroy(theObject.gameObject);
+            Destroy(this.gameObject);
+        }
+        if(theObject.gameObject.CompareTag("wall")){
+            Destroy(this.gameObject);
+        }
+
+
+
+     }
 }

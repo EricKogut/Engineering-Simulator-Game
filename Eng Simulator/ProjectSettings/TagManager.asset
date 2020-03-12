@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - SEB_Building
+  - wall
+  - enemy
   layers:
   - Default
   - TransparentFX
