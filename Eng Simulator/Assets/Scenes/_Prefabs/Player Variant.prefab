@@ -15,6 +15,11 @@ GameObject:
   - component: {fileID: 7463677796198758442}
   - component: {fileID: 737634695526055200}
   - component: {fileID: 737634695526055205}
+  - component: {fileID: 4417618970551119896}
+  - component: {fileID: 4417618970551119903}
+  - component: {fileID: 4417618970551119902}
+  - component: {fileID: 4417618970551119897}
+  - component: {fileID: 4417618970551119899}
   m_Layer: 0
   m_Name: Player Variant
   m_TagString: Player
@@ -76,6 +81,8 @@ BoxCollider2D:
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1.875, y: 2.5625}
     newSize: {x: 1.875, y: 2.5625}
+    oldSize: {x: 2.125, y: 3}
+    newSize: {x: 2.125, y: 3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -83,7 +90,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!114 &3507271589509113302
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,9 +104,8 @@ MonoBehaviour:
   playerSpeed: 5
   myAbility: {fileID: 11400000, guid: bf91941c1db90d2409f0657292390d1c, type: 2}
 --- !u!95 &7463677796198758442
-Animator:
+--- !u!95 &4417618970551119899
   serializedVersion: 3
-  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

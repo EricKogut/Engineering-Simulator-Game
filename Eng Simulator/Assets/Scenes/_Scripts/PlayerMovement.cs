@@ -14,6 +14,7 @@ private Vector2 currentDirection = new Vector2(1f,0f);
 
 private Rigidbody2D playerRigidBody;
 private Vector3 movement;
+public static float energy = 100f;
 
 
 
@@ -64,7 +65,14 @@ private Animator playerAnimation;
         
          Movement();
 
-
+        if(Input.GetKey("left shift") && energy > 0 && movement.magnitude >0){
+            Sprinting();
+            energy--;
+        }
+        else{
+             energy = energy + 0.1f;
+         }
+       
 
         
         
@@ -84,6 +92,11 @@ private Animator playerAnimation;
         return null;
     }
 
+    void Sprinting(){   
+            playerRigidBody.AddForce(currentDirection*500);
+    }
 
+
+    
 
 }
