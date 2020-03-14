@@ -69,7 +69,7 @@ private Animator playerAnimation;
             Sprinting();
             energy--;
         }
-        else{
+        else if (energy<100){
              energy = energy + 0.1f;
          }
        
