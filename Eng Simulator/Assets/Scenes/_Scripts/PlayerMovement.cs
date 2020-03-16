@@ -75,9 +75,7 @@ private Animator playerAnimation;
         }
         else if (energy<100){
              energy = energy + 0.1f;
-             //playerRigidBody.isKinematic = true;
          }
-
 
          if(Input.GetKey("e") && energy > 50){
              playerBoxCollider.enabled = false;
@@ -85,14 +83,7 @@ private Animator playerAnimation;
             energy -= 50; 
         }
 
-
         playerBoxCollider.enabled = true;
-        
-       
-       
-
-        
-        
     }
 
 
@@ -125,31 +116,9 @@ private Animator playerAnimation;
                 myAbility.Ability(transform.position, new Vector2(i, -j), playerAnimation, playerRigidBody );
                 myAbility.Ability(transform.position, new Vector2(-i, -j), playerAnimation, playerRigidBody );
             }
+            
             //playerAnimation.StopPlayback();
             playerAnimation.SetBool("ultimate", false);
-                
-
-                
-        
-
-
-        // myAbility.Ability(transform.position, new Vector2(1f, 0f), playerAnimation, playerRigidBody );
-        // myAbility.Ability(transform.position, new Vector2(0.5f, 0f), playerAnimation, playerRigidBody );
-
-
-        // myAbility.Ability(transform.position, new Vector2(0f, 1f), playerAnimation, playerRigidBody );
-        // myAbility.Ability(transform.position, new Vector2(1f, 0.5f), playerAnimation, playerRigidBody );
-        // myAbility.Ability(transform.position, new Vector2(1f, 1f), playerAnimation, playerRigidBody );
-        // myAbility.Ability(transform.position, new Vector2(0.5f, 1f), playerAnimation, playerRigidBody );
-        // myAbility.Ability(transform.position, new Vector2(-1f, 0f), playerAnimation, playerRigidBody );
-        // myAbility.Ability(transform.position, new Vector2(-0.5f, 1f), playerAnimation, playerRigidBody );
-        // myAbility.Ability(transform.position, new Vector2(0f, -1f), playerAnimation, playerRigidBody );
-        // myAbility.Ability(transform.position, new Vector2(1f, -0.5f), playerAnimation, playerRigidBody );
-        // myAbility.Ability(transform.position, new Vector2(-1f, -1f), playerAnimation, playerRigidBody );
-        // myAbility.Ability(transform.position, new Vector2(-1f, -0.5f), playerAnimation, playerRigidBody );
-        //yield return new WaitForSeconds(0.05f);
-        }
+         }
     }
-    
-
 }

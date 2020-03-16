@@ -7,6 +7,7 @@ TagManager:
   - SEB_Building
   - wall
   - enemy
+  - player
   layers:
   - Default
   - TransparentFX
