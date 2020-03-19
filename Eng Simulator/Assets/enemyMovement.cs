@@ -18,7 +18,7 @@ public class enemyMovement : StateMachineBehaviour
         currentPosition = GameObject.FindGameObjectWithTag("player").transform;
         animationVariable = animator;
 
-       
+
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -26,21 +26,25 @@ public class enemyMovement : StateMachineBehaviour
     //Acts as the update function
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-     animator.transform.position = Vector2.MoveTowards(animator.transform.position, currentPosition.position, speed * Time.deltaTime);
 
-    movement  = currentPosition.position;
+        if (GameObject.Find("Player Variant"))
+        {
+            animator.transform.position = Vector2.MoveTowards(animator.transform.position, currentPosition.position, speed * Time.deltaTime);
+        }
 
-    //Note: had to normalize the variables since the numbers didnt work great with the animator
-    animationVariable.SetFloat("horizontalMovement",(movement.normalized.x));
-    animationVariable.SetFloat("verticalMovement",(movement.normalized.y));  
+        movement = currentPosition.position;
+
+        //Note: had to normalize the variables since the numbers didnt work great with the animator
+        animationVariable.SetFloat("horizontalMovement", (movement.normalized.x));
+        animationVariable.SetFloat("verticalMovement", (movement.normalized.y));
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
 
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       animationVariable.SetFloat("horizontalMovement",(movement.normalized.x));
-        animationVariable.SetFloat("verticalMovement",(movement.normalized.y));
+        animationVariable.SetFloat("horizontalMovement", (movement.normalized.x));
+        animationVariable.SetFloat("verticalMovement", (movement.normalized.y));
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

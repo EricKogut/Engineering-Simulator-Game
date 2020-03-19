@@ -5,18 +5,18 @@ using UnityEngine;
 
 
 
-[CreateAssetMenu(menuName ="Scripts/Abilities/ShootingAbility", fileName = "Shooting Ability")]
+[CreateAssetMenu(menuName = "Scripts/Abilities/ShootingAbility", fileName = "Shooting Ability")]
 
 
-//Projectile will ingerit from Generic ability
-public class ShootingAbility :  GenericAbility  
+//Projectile will inherit from Generic ability
+public class ShootingAbility : GenericAbility
 {
     [SerializeField]
     private GameObject myObject;
 
 
- public override void Ability(Vector2 playerPosition, Vector2 currentDirection, 
-        Animator playerAnimator, Rigidbody2D playerRB = null)
+    public override void Ability(Vector2 playerPosition, Vector2 currentDirection,
+           Animator playerAnimator, Rigidbody2D playerRB = null)
     {
 
         //Starting by creating the projectilek
@@ -27,9 +27,9 @@ public class ShootingAbility :  GenericAbility
         GameObject newObject = Instantiate(myObject, playerPosition, Quaternion.Euler(0f, 0f, direction));
 
         BulletMovement movement = newObject.GetComponent<BulletMovement>();
-        if(movement)
+        if (movement)
         {
-        movement.movement(currentDirection);    
+            movement.movement(currentDirection);
         }
 
     }
