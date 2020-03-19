@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyHealthManager : MonoBehaviour
 {
+    public GameObject player;
     public int enemyMaxHealth;
     public int enemyCurrentHealth;
 
@@ -15,6 +16,8 @@ public class EnemyHealthManager : MonoBehaviour
     {
         if (enemyCurrentHealth <= 0)
         {
+            player.GetComponent<PlayerXP>().Experience = 1000;
+            Debug.Log("You've earned some experience");
             Destroy(gameObject);
         }
     }
@@ -29,4 +32,5 @@ public class EnemyHealthManager : MonoBehaviour
     {
         enemyMaxHealth = max;
     }
+
 }

@@ -17,7 +17,6 @@ public class BulletMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         //Getting the RB component
         theRigidBody = GetComponent<Rigidbody2D>();
     }
@@ -33,7 +32,6 @@ public class BulletMovement : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-
         if (other.gameObject.CompareTag("enemy"))
         {
             //            Destroy(other.gameObject);
@@ -45,8 +43,6 @@ public class BulletMovement : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-
-
-
     }
+
 }

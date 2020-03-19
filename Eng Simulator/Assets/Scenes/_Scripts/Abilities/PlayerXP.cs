@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class PlayerXP : MonoBehaviour
 {
-    private int experience;
+    private static int experience = 0; // player always starts with 0 experience
 
     public int Experience
-    {
+    { // Experience property exposes private field for usage by other scripts
         get
         {
             return experience;
         }
         set
         {
-            experience = value;
+            experience += value;
         }
     }
 
@@ -22,7 +22,7 @@ public class PlayerXP : MonoBehaviour
     {
         get
         {
-            return experience / 1000;
+            return (int)Mathf.Floor(experience / 1000);
         }
         set
         {

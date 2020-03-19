@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 movement;
     public static float energy = 100f;
 
+    private Color original = new Color(255, 255, 255, 255);
 
 
 
@@ -132,5 +133,28 @@ public class PlayerMovement : MonoBehaviour
             //playerAnimation.StopPlayback();
             playerAnimation.SetBool("ultimate", false);
         }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+
+        Debug.Log("You've been triggered");
+        if (other.gameObject.CompareTag("enemy"))
+        {
+            SpriteRenderer spriteR = this.GetComponent<SpriteRenderer>();
+            spriteR.color = original;
+            this.GetComponent<PlayerHealthManager>().HurtPlayer(10);
+            StartCoroutine(Flash());
+            Debug.Log("You've been damaged");
+        }
+    }
+
+    IEnumerator Flash()
+    {
+        SpriteRenderer sr = this.GetComponent<SpriteRenderer>();
+        Color original = sr.color;
+        sr.color = Color.red;
+        yield return new WaitForSeconds(0.5f);
+        sr.color = original;
     }
 }

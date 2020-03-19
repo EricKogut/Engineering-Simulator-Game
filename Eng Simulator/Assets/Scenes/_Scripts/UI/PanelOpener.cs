@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class PanelOpener : MonoBehaviour
 {
+
+    public GameObject bullet;
     public GameObject Panel;
+    // add spriterenderer and start()
+
+
     public void OpenPanel()
     {
         if (Panel != null)
