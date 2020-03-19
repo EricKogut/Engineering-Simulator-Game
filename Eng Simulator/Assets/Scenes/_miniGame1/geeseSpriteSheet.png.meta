@@ -1,0 +1,2039 @@
+fileFormatVersion: 2
+guid: 3d69e7df958450949b1ba275f7c61fbe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -994495293350769773
+    second: geeseSpriteSheet_0
+  - first:
+      213: -4432098638072200927
+    second: geeseSpriteSheet_1
+  - first:
+      213: 2961087157763658663
+    second: geeseSpriteSheet_2
+  - first:
+      213: -8852604943054009818
+    second: geeseSpriteSheet_3
+  - first:
+      213: 2707308990259582638
+    second: geeseSpriteSheet_4
+  - first:
+      213: -8731543737459698542
+    second: geeseSpriteSheet_5
+  - first:
+      213: 8587144653476300534
+    second: geeseSpriteSheet_6
+  - first:
+      213: 1310407202748222519
+    second: geeseSpriteSheet_7
+  - first:
+      213: 6898410448591664457
+    second: geeseSpriteSheet_8
+  - first:
+      213: -7587766594245783699
+    second: geeseSpriteSheet_9
+  - first:
+      213: -4775338709502591760
+    second: geeseSpriteSheet_10
+  - first:
+      213: -2275897480925581812
+    second: geeseSpriteSheet_11
+  - first:
+      213: 8266900578291349583
+    second: geeseSpriteSheet_12
+  - first:
+      213: 3103757363170487801
+    second: geeseSpriteSheet_13
+  - first:
+      213: -1445060940089495709
+    second: geeseSpriteSheet_14
+  - first:
+      213: 5385330807557127915
+    second: geeseSpriteSheet_15
+  - first:
+      213: 5028170622674032294
+    second: geeseSpriteSheet_16
+  - first:
+      213: 3327728882560183008
+    second: geeseSpriteSheet_17
+  - first:
+      213: -6068989324801765665
+    second: geeseSpriteSheet_18
+  - first:
+      213: 457812092220174083
+    second: geeseSpriteSheet_19
+  - first:
+      213: -7260318882981087431
+    second: geeseSpriteSheet_20
+  - first:
+      213: -336358602409237070
+    second: geeseSpriteSheet_21
+  - first:
+      213: -4344170046611329501
+    second: geeseSpriteSheet_22
+  - first:
+      213: 3577038943558660815
+    second: geeseSpriteSheet_23
+  - first:
+      213: 3263730980663501468
+    second: geeseSpriteSheet_24
+  - first:
+      213: 4862583003374590273
+    second: geeseSpriteSheet_25
+  - first:
+      213: -4295755098233272736
+    second: geeseSpriteSheet_26
+  - first:
+      213: -1201277407013657975
+    second: geeseSpriteSheet_27
+  - first:
+      213: -3350778098285494735
+    second: geeseSpriteSheet_28
+  - first:
+      213: 2305336617102564775
+    second: geeseSpriteSheet_29
+  - first:
+      213: 6833340647803839917
+    second: geeseSpriteSheet_30
+  - first:
+      213: 4052520359886454750
+    second: geeseSpriteSheet_31
+  - first:
+      213: 5109546231430760377
+    second: geeseSpriteSheet_32
+  - first:
+      213: 2553378017229039067
+    second: geeseSpriteSheet_33
+  - first:
+      213: -7420944612707000471
+    second: geeseSpriteSheet_34
+  - first:
+      213: 2342235289510589911
+    second: geeseSpriteSheet_35
+  - first:
+      213: 8518586216760317781
+    second: geeseSpriteSheet_36
+  - first:
+      213: -5751404872593546820
+    second: geeseSpriteSheet_37
+  - first:
+      213: 8987844728778079053
+    second: geeseSpriteSheet_38
+  - first:
+      213: 8642447782694196041
+    second: geeseSpriteSheet_39
+  - first:
+      213: -1664969978767023775
+    second: geeseSpriteSheet_40
+  - first:
+      213: -7037659772554218983
+    second: geeseSpriteSheet_41
+  - first:
+      213: 7637642561252915502
+    second: geeseSpriteSheet_42
+  - first:
+      213: -4608259087545232749
+    second: geeseSpriteSheet_43
+  - first:
+      213: -6500786115447908331
+    second: geeseSpriteSheet_44
+  - first:
+      213: -7816803220032136039
+    second: geeseSpriteSheet_45
+  - first:
+      213: -6099712530749392430
+    second: geeseSpriteSheet_46
+  - first:
+      213: 5867728483089131921
+    second: geeseSpriteSheet_47
+  - first:
+      213: -7449477795271455434
+    second: geeseSpriteSheet_48
+  - first:
+      213: 3869079899945679640
+    second: geeseSpriteSheet_49
+  - first:
+      213: -3397385115631052578
+    second: geeseSpriteSheet_50
+  - first:
+      213: -1286038060216236369
+    second: geeseSpriteSheet_51
+  - first:
+      213: 371732445972283721
+    second: geeseSpriteSheet_52
+  - first:
+      213: 4988887748814267662
+    second: geeseSpriteSheet_53
+  - first:
+      213: 2679225573835703768
+    second: geeseSpriteSheet_54
+  - first:
+      213: -6352745492015924898
+    second: geeseSpriteSheet_55
+  - first:
+      213: -2499033696007831323
+    second: geeseSpriteSheet_56
+  - first:
+      213: 3878401040010011324
+    second: geeseSpriteSheet_57
+  - first:
+      213: -8841927923391353652
+    second: geeseSpriteSheet_58
+  - first:
+      213: -5683899759826727955
+    second: geeseSpriteSheet_59
+  - first:
+      213: -5038992547088917486
+    second: geeseSpriteSheet_60
+  - first:
+      213: 4636291100717234204
+    second: geeseSpriteSheet_61
+  - first:
+      213: -3926881494293817550
+    second: geeseSpriteSheet_62
+  - first:
+      213: 8018605755738498244
+    second: geeseSpriteSheet_63
+  - first:
+      213: -3416999430709403832
+    second: geeseSpriteSheet_64
+  - first:
+      213: 6129456571474343427
+    second: geeseSpriteSheet_65
+  - first:
+      213: 1134050284978402811
+    second: geeseSpriteSheet_66
+  - first:
+      213: 5230525520261067364
+    second: geeseSpriteSheet_67
+  - first:
+      213: 4013724792833703499
+    second: geeseSpriteSheet_68
+  - first:
+      213: -4051134965979350372
+    second: geeseSpriteSheet_69
+  - first:
+      213: 8526021467046441160
+    second: geeseSpriteSheet_70
+  - first:
+      213: -5697314168877283561
+    second: geeseSpriteSheet_71
+  - first:
+      213: -3350967499770407192
+    second: geeseSpriteSheet_72
+  - first:
+      213: -1474892070519826903
+    second: geeseSpriteSheet_73
+  - first:
+      213: -5004877173035578067
+    second: geeseSpriteSheet_74
+  - first:
+      213: 6961129843151046085
+    second: geeseSpriteSheet_75
+  - first:
+      213: -7164588868720743966
+    second: geeseSpriteSheet_76
+  - first:
+      213: 424020556355158889
+    second: geeseSpriteSheet_77
+  - first:
+      213: -605003081312615563
+    second: geeseSpriteSheet_78
+  - first:
+      213: 4557978163311259987
+    second: geeseSpriteSheet_79
+  - first:
+      213: -3387197287885388066
+    second: geeseSpriteSheet_80
+  - first:
+      213: 7221595294736651896
+    second: geeseSpriteSheet_81
+  - first:
+      213: -3745474228165149469
+    second: geeseSpriteSheet_82
+  - first:
+      213: 3855072818551025459
+    second: geeseSpriteSheet_83
+  - first:
+      213: -4021529608537008156
+    second: geeseSpriteSheet_84
+  - first:
+      213: -370467978901692451
+    second: geeseSpriteSheet_85
+  - first:
+      213: -4818279811368629870
+    second: geeseSpriteSheet_86
+  - first:
+      213: -3333635748324821613
+    second: geeseSpriteSheet_87
+  - first:
+      213: 8213578052483702958
+    second: geeseSpriteSheet_88
+  - first:
+      213: 2873762311501514936
+    second: geeseSpriteSheet_89
+  - first:
+      213: -8835930498771263987
+    second: geeseSpriteSheet_90
+  - first:
+      213: 6633671053679325388
+    second: geeseSpriteSheet_91
+  - first:
+      213: -2511491258929139594
+    second: geeseSpriteSheet_92
+  - first:
+      213: -9191409275908887614
+    second: geeseSpriteSheet_93
+  - first:
+      213: 7083397120608349390
+    second: geeseSpriteSheet_94
+  - first:
+      213: 4426672230356051531
+    second: geeseSpriteSheet_95
+  - first:
+      213: 8253078992078157085
+    second: geeseSpriteSheet_96
+  - first:
+      213: -4472066498200922519
+    second: geeseSpriteSheet_97
+  - first:
+      213: -7018771058026925131
+    second: geeseSpriteSheet_98
+  - first:
+      213: 6961669489469803505
+    second: geeseSpriteSheet_99
+  - first:
+      213: 4292834848697512092
+    second: geeseSpriteSheet_100
+  - first:
+      213: -2619134097911644558
+    second: geeseSpriteSheet_101
+  - first:
+      213: 8806717173005700191
+    second: geeseSpriteSheet_102
+  - first:
+      213: 8609726172341127852
+    second: geeseSpriteSheet_103
+  - first:
+      213: 6698794800701618274
+    second: geeseSpriteSheet_104
+  - first:
+      213: 6942807086503054353
+    second: geeseSpriteSheet_105
+  - first:
+      213: 5242622141981369216
+    second: geeseSpriteSheet_106
+  - first:
+      213: -2091590608699091239
+    second: geeseSpriteSheet_107
+  - first:
+      213: 2025750368334163643
+    second: geeseSpriteSheet_108
+  - first:
+      213: 4997519703042592869
+    second: geeseSpriteSheet_109
+  - first:
+      213: -1221228260237829155
+    second: geeseSpriteSheet_110
+  - first:
+      213: 4825752044066408274
+    second: geeseSpriteSheet_111
+  - first:
+      213: -2691742254236094374
+    second: geeseSpriteSheet_112
+  - first:
+      213: -3601100583950754164
+    second: geeseSpriteSheet_113
+  - first:
+      213: 1904558935294020527
+    second: geeseSpriteSheet_114
+  - first:
+      213: 6614898591289418327
+    second: geeseSpriteSheet_115
+  - first:
+      213: 8049021302433077080
+    second: geeseSpriteSheet_116
+  - first:
+      213: 5731400762973605382
+    second: geeseSpriteSheet_117
+  - first:
+      213: -3140070399183374284
+    second: geeseSpriteSheet_118
+  - first:
+      213: -4214621978171447752
+    second: geeseSpriteSheet_119
+  - first:
+      213: -1886226589136788449
+    second: geeseSpriteSheet_120
+  - first:
+      213: -1098182777041792212
+    second: geeseSpriteSheet_121
+  - first:
+      213: 4162279776044460582
+    second: geeseSpriteSheet_122
+  - first:
+      213: -6940892853327687172
+    second: geeseSpriteSheet_123
+  - first:
+      213: 3262966279725848729
+    second: geeseSpriteSheet_124
+  - first:
+      213: -4258322619441793586
+    second: geeseSpriteSheet_125
+  - first:
+      213: -6725765240383237288
+    second: geeseSpriteSheet_126
+  - first:
+      213: -2008030839067697153
+    second: geeseSpriteSheet_127
+  - first:
+      213: -7325455351458938040
+    second: geeseSpriteSheet_128
+  - first:
+      213: -3286217302137203069
+    second: geeseSpriteSheet_129
+  - first:
+      213: -7439516865286891162
+    second: geeseSpriteSheet_130
+  - first:
+      213: -2346069493794106581
+    second: geeseSpriteSheet_131
+  - first:
+      213: -7498118850694019254
+    second: geeseSpriteSheet_132
+  - first:
+      213: -2450941279450586424
+    second: geeseSpriteSheet_133
+  - first:
+      213: 581756695739593524
+    second: geeseSpriteSheet_134
+  - first:
+      213: -6526770957324818062
+    second: geeseSpriteSheet_135
+  - first:
+      213: 2649332061300458905
+    second: geeseSpriteSheet_136
+  - first:
+      213: -3829310475428674100
+    second: geeseSpriteSheet_137
+  - first:
+      213: 969753411578927481
+    second: geeseSpriteSheet_138
+  - first:
+      213: 3344646368833944684
+    second: geeseSpriteSheet_139
+  - first:
+      213: -5581730738429195480
+    second: geeseSpriteSheet_140
+  - first:
+      213: 1139919280959174527
+    second: geeseSpriteSheet_141
+  - first:
+      213: 2934540887591319894
+    second: geeseSpriteSheet_142
+  - first:
+      213: -8359425584300041065
+    second: geeseSpriteSheet_143
+  - first:
+      213: 8041255793972887363
+    second: geeseSpriteSheet_144
+  - first:
+      213: 2102868833384828406
+    second: geeseSpriteSheet_145
+  - first:
+      213: 6788747736958941746
+    second: geeseSpriteSheet_146
+  - first:
+      213: 5321354094407400413
+    second: geeseSpriteSheet_147
+  - first:
+      213: 1484696091438760930
+    second: geeseSpriteSheet_148
+  - first:
+      213: -2028555798244124071
+    second: geeseSpriteSheet_149
+  - first:
+      213: -4002554189053266912
+    second: geeseSpriteSheet_150
+  - first:
+      213: -2459076348486065000
+    second: geeseSpriteSheet_151
+  - first:
+      213: 5146918971968227421
+    second: geeseSpriteSheet_152
+  - first:
+      213: 4751896599559833021
+    second: geeseSpriteSheet_153
+  - first:
+      213: -2202807244261552276
+    second: geeseSpriteSheet_154
+  - first:
+      213: -791009850525936495
+    second: geeseSpriteSheet_155
+  - first:
+      213: -288805103509914390
+    second: geeseSpriteSheet_156
+  - first:
+      213: 6676393762526304928
+    second: geeseSpriteSheet_157
+  - first:
+      213: 6725250042567059312
+    second: geeseSpriteSheet_158
+  - first:
+      213: -2189338508412596191
+    second: geeseSpriteSheet_159
+  - first:
+      213: -7130354035140603048
+    second: geeseSpriteSheet_160
+  - first:
+      213: 8623266237145637591
+    second: geeseSpriteSheet_161
+  - first:
+      213: 2424058092277348205
+    second: geeseSpriteSheet_162
+  - first:
+      213: -920964580800158778
+    second: geeseSpriteSheet_163
+  - first:
+      213: 7698164121223945649
+    second: geeseSpriteSheet_164
+  - first:
+      213: 5739652627475907504
+    second: geeseSpriteSheet_165
+  - first:
+      213: -4768045075924000285
+    second: geeseSpriteSheet_166
+  - first:
+      213: 5101982768528892984
+    second: geeseSpriteSheet_167
+  - first:
+      213: -4575891445918074264
+    second: geeseSpriteSheet_168
+  - first:
+      213: 6612082742094141254
+    second: geeseSpriteSheet_169
+  - first:
+      213: 8121512915987267936
+    second: geeseSpriteSheet_170
+  - first:
+      213: -5119354116642064379
+    second: geeseSpriteSheet_171
+  - first:
+      213: -4105440741655434492
+    second: geeseSpriteSheet_172
+  - first:
+      213: -1410232047955345157
+    second: geeseSpriteSheet_173
+  - first:
+      213: 7324869323483506323
+    second: geeseSpriteSheet_174
+  - first:
+      213: 267082865185699255
+    second: geeseSpriteSheet_175
+  - first:
+      213: -2423780356934310091
+    second: geeseSpriteSheet_176
+  - first:
+      213: -5788725178615175785
+    second: geeseSpriteSheet_177
+  - first:
+      213: -2576367107788970265
+    second: geeseSpriteSheet_178
+  - first:
+      213: 4727438248851728999
+    second: geeseSpriteSheet_179
+  - first:
+      213: -3401956859419055883
+    second: geeseSpriteSheet_180
+  - first:
+      213: -9103059245920079841
+    second: geeseSpriteSheet_181
+  - first:
+      213: -2915822822871690114
+    second: geeseSpriteSheet_182
+  - first:
+      213: -5476297982931876480
+    second: geeseSpriteSheet_183
+  - first:
+      213: 5328017293933623109
+    second: geeseSpriteSheet_184
+  - first:
+      213: 1498128211781169375
+    second: geeseSpriteSheet_185
+  - first:
+      213: 2633919869411974386
+    second: geeseSpriteSheet_186
+  - first:
+      213: -2690753109909155471
+    second: geeseSpriteSheet_187
+  - first:
+      213: -2409981483967685657
+    second: geeseSpriteSheet_188
+  - first:
+      213: -5358007727831661977
+    second: geeseSpriteSheet_189
+  - first:
+      213: 7502349955795741864
+    second: geeseSpriteSheet_190
+  - first:
+      213: 6219114587834224014
+    second: geeseSpriteSheet_191
+  - first:
+      213: -3342547728306131668
+    second: geeseSpriteSheet_192
+  - first:
+      213: 4540691581454768647
+    second: geeseSpriteSheet_193
+  - first:
+      213: 8894051555724486197
+    second: geeseSpriteSheet_194
+  - first:
+      213: -5810494310083575224
+    second: geeseSpriteSheet_195
+  - first:
+      213: -4513952655998625459
+    second: geeseSpriteSheet_196
+  - first:
+      213: -5154643056951209892
+    second: geeseSpriteSheet_197
+  - first:
+      213: -1093521774207524435
+    second: geeseSpriteSheet_198
+  - first:
+      213: -4257868720028254268
+    second: geeseSpriteSheet_199
+  - first:
+      213: -5087565812382980996
+    second: geeseSpriteSheet_200
+  - first:
+      213: -6977250497533511759
+    second: geeseSpriteSheet_201
+  - first:
+      213: 2721637195551429333
+    second: geeseSpriteSheet_202
+  - first:
+      213: 1891969223857885726
+    second: geeseSpriteSheet_203
+  - first:
+      213: -6016654699645692361
+    second: geeseSpriteSheet_204
+  - first:
+      213: -2017872324536698274
+    second: geeseSpriteSheet_205
+  - first:
+      213: 8903439509928029029
+    second: geeseSpriteSheet_206
+  - first:
+      213: -6287207767942577567
+    second: geeseSpriteSheet_207
+  - first:
+      213: -4347538123210122537
+    second: geeseSpriteSheet_208
+  - first:
+      213: 9160512823153485076
+    second: geeseSpriteSheet_209
+  - first:
+      213: -8806661547543269310
+    second: geeseSpriteSheet_210
+  - first:
+      213: -5265049856905576949
+    second: geeseSpriteSheet_211
+  - first:
+      213: 1047847337666688116
+    second: geeseSpriteSheet_212
+  - first:
+      213: 1812218792585374123
+    second: geeseSpriteSheet_213
+  - first:
+      213: -8067870798480980349
+    second: geeseSpriteSheet_214
+  - first:
+      213: -6754222843774123150
+    second: geeseSpriteSheet_215
+  - first:
+      213: -2464912972715772400
+    second: geeseSpriteSheet_216
+  - first:
+      213: -1170777854145757139
+    second: geeseSpriteSheet_217
+  - first:
+      213: -6341035463119705844
+    second: geeseSpriteSheet_218
+  - first:
+      213: 2477183208872900891
+    second: geeseSpriteSheet_219
+  - first:
+      213: -1915579534658974686
+    second: geeseSpriteSheet_220
+  - first:
+      213: 8212791517757812448
+    second: geeseSpriteSheet_221
+  - first:
+      213: -4989163909720648077
+    second: geeseSpriteSheet_222
+  - first:
+      213: 8665605649217387001
+    second: geeseSpriteSheet_223
+  - first:
+      213: 6388548572276618334
+    second: geeseSpriteSheet_224
+  - first:
+      213: 619781180449704137
+    second: geeseSpriteSheet_225
+  - first:
+      213: 8823391540838499491
+    second: geeseSpriteSheet_226
+  - first:
+      213: 5423645554089062954
+    second: geeseSpriteSheet_227
+  - first:
+      213: 6341463107060943640
+    second: geeseSpriteSheet_228
+  - first:
+      213: -2898043574523674545
+    second: geeseSpriteSheet_229
+  - first:
+      213: -226878155448642943
+    second: geeseSpriteSheet_230
+  - first:
+      213: -6390602794973983573
+    second: geeseSpriteSheet_231
+  - first:
+      213: 8914420595383035460
+    second: geeseSpriteSheet_232
+  - first:
+      213: 6698836462403444607
+    second: geeseSpriteSheet_233
+  - first:
+      213: -6110661720078706134
+    second: geeseSpriteSheet_234
+  - first:
+      213: -8139369641721645911
+    second: geeseSpriteSheet_235
+  - first:
+      213: 1697664117232434085
+    second: geeseSpriteSheet_236
+  - first:
+      213: -8967478129962210018
+    second: geeseSpriteSheet_237
+  - first:
+      213: -5116149511972948135
+    second: geeseSpriteSheet_238
+  - first:
+      213: -2922422521481395198
+    second: geeseSpriteSheet_239
+  - first:
+      213: 441724030551346426
+    second: geeseSpriteSheet_240
+  - first:
+      213: 7269515471101424356
+    second: geeseSpriteSheet_241
+  - first:
+      213: 3790410864472446380
+    second: geeseSpriteSheet_242
+  - first:
+      213: -8715492510205699267
+    second: geeseSpriteSheet_243
+  - first:
+      213: 5248545614340889962
+    second: geeseSpriteSheet_244
+  - first:
+      213: -6595738414363149748
+    second: geeseSpriteSheet_245
+  - first:
+      213: 4423564303237379436
+    second: geeseSpriteSheet_246
+  - first:
+      213: -20747864117641881
+    second: geeseSpriteSheet_247
+  - first:
+      213: 1469744203192201639
+    second: geeseSpriteSheet_248
+  - first:
+      213: 824635707360938487
+    second: geeseSpriteSheet_249
+  - first:
+      213: -3471850917028445035
+    second: geeseSpriteSheet_250
+  - first:
+      213: 6505884391561018203
+    second: geeseSpriteSheet_251
+  - first:
+      213: -1639982830402317134
+    second: geeseSpriteSheet_252
+  - first:
+      213: -163039340136447738
+    second: geeseSpriteSheet_253
+  - first:
+      213: 1091056359160054209
+    second: geeseSpriteSheet_254
+  - first:
+      213: 900179596453168322
+    second: geeseSpriteSheet_255
+  - first:
+      213: 644782812834635087
+    second: geeseSpriteSheet_256
+  - first:
+      213: -3712307310736309418
+    second: geeseSpriteSheet_257
+  - first:
+      213: -1162601058262159022
+    second: geeseSpriteSheet_258
+  - first:
+      213: -7920715194710032164
+    second: geeseSpriteSheet_259
+  - first:
+      213: -3792031722394986434
+    second: geeseSpriteSheet_260
+  - first:
+      213: -5185532589661356961
+    second: geeseSpriteSheet_261
+  - first:
+      213: -3894374199750170353
+    second: geeseSpriteSheet_262
+  - first:
+      213: 5422670324158615357
+    second: geeseSpriteSheet_263
+  - first:
+      213: 3011382307234265376
+    second: geeseSpriteSheet_264
+  - first:
+      213: -2767654094138022009
+    second: geeseSpriteSheet_265
+  - first:
+      213: -5185235724953044792
+    second: geeseSpriteSheet_266
+  - first:
+      213: 8254431459816544007
+    second: geeseSpriteSheet_267
+  - first:
+      213: 5679817544366695591
+    second: geeseSpriteSheet_0
+  - first:
+      213: -9074410103272379293
+    second: geeseSpriteSheet_1
+  - first:
+      213: -4155703586341096527
+    second: geeseSpriteSheet_2
+  - first:
+      213: 6079299409610741974
+    second: geeseSpriteSheet_3
+  - first:
+      213: -8864462703544746647
+    second: geeseSpriteSheet_4
+  - first:
+      213: 4536675066403137573
+    second: geeseSpriteSheet_5
+  - first:
+      213: 1259721159741667464
+    second: geeseSpriteSheet_6
+  - first:
+      213: 2145447449101441441
+    second: geeseSpriteSheet_7
+  - first:
+      213: -137176524419397307
+    second: geeseSpriteSheet_8
+  - first:
+      213: -9135021865491055192
+    second: geeseSpriteSheet_9
+  - first:
+      213: -297377173808001325
+    second: geeseSpriteSheet_10
+  - first:
+      213: 761311288453641943
+    second: geeseSpriteSheet_11
+  - first:
+      213: 7633000339949909375
+    second: geeseSpriteSheet_12
+  - first:
+      213: -4726732977839912581
+    second: geeseSpriteSheet_13
+  - first:
+      213: 6511846307134545582
+    second: geeseSpriteSheet_14
+  - first:
+      213: 1991246216290159450
+    second: geeseSpriteSheet_15
+  - first:
+      213: 4534157623400128107
+    second: geeseSpriteSheet_16
+  - first:
+      213: -3042719790373837432
+    second: geeseSpriteSheet_17
+  - first:
+      213: -8474102533013942504
+    second: geeseSpriteSheet_18
+  - first:
+      213: -6398415935881220563
+    second: geeseSpriteSheet_19
+  - first:
+      213: -1092882549097860778
+    second: geeseSpriteSheet_20
+  - first:
+      213: -7507658935161672018
+    second: geeseSpriteSheet_21
+  - first:
+      213: -745239003050635411
+    second: geeseSpriteSheet_22
+  - first:
+      213: -1106456213228405546
+    second: geeseSpriteSheet_23
+  - first:
+      213: 4252766522439878468
+    second: geeseSpriteSheet_24
+  - first:
+      213: 4376959646314882067
+    second: geeseSpriteSheet_25
+  - first:
+      213: 4172464466419475977
+    second: geeseSpriteSheet_26
+  - first:
+      213: 1117669989829712660
+    second: geeseSpriteSheet_27
+  - first:
+      213: -4829201829430271680
+    second: geeseSpriteSheet_28
+  - first:
+      213: 8226083883255585810
+    second: geeseSpriteSheet_29
+  - first:
+      213: 9211255343423805194
+    second: geeseSpriteSheet_30
+  - first:
+      213: 4171152823969214248
+    second: geeseSpriteSheet_31
+  - first:
+      213: -2511056033494307594
+    second: geeseSpriteSheet_32
+  - first:
+      213: 5785669483306401219
+    second: geeseSpriteSheet_33
+  - first:
+      213: -1520615647838265748
+    second: geeseSpriteSheet_34
+  - first:
+      213: -3296608521185507137
+    second: geeseSpriteSheet_35
+  - first:
+      213: 9194927586817419192
+    second: geeseSpriteSheet_36
+  - first:
+      213: 6701704156322499355
+    second: geeseSpriteSheet_37
+  - first:
+      213: 8070621752753823411
+    second: geeseSpriteSheet_38
+  - first:
+      213: 1887842116699649535
+    second: geeseSpriteSheet_39
+  - first:
+      213: 7333549314658964438
+    second: geeseSpriteSheet_40
+  - first:
+      213: 1847517016387638978
+    second: geeseSpriteSheet_41
+  - first:
+      213: -3729335442421962320
+    second: geeseSpriteSheet_42
+  - first:
+      213: -9215245902223451403
+    second: geeseSpriteSheet_43
+  - first:
+      213: 1846493324241045553
+    second: geeseSpriteSheet_44
+  - first:
+      213: 149713918704842493
+    second: geeseSpriteSheet_45
+  - first:
+      213: -6189350373502859098
+    second: geeseSpriteSheet_46
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: geeseSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a42201b6f3c2de40800000000000000
+      internalID: 5679817544366695591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ceb30e618311280800000000000000
+      internalID: -9074410103272379293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b372582b99f356c0800000000000000
+      internalID: -4155703586341096527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 244
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d817118a920e5450800000000000000
+      internalID: 6079299409610741974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 244
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d3486132a1bf480800000000000000
+      internalID: -8864462703544746647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 244
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528a452cfe185fe30800000000000000
+      internalID: 4536675066403137573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888f17278bd6b7110800000000000000
+      internalID: 1259721159741667464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 204
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a995ff761926cd10800000000000000
+      internalID: 2145447449101441441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 204
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54985768da6a81ef0800000000000000
+      internalID: -137176524419397307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 204
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adbaf34302e93180800000000000000
+      internalID: -9135021865491055192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de4dd639018fdbf0800000000000000
+      internalID: -297377173808001325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 164
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d636cf4598b09a00800000000000000
+      internalID: 761311288453641943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7576292e5ddde960800000000000000
+      internalID: 7633000339949909375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 124
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5144644, y: 0.45660782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b794ab36665476eb0800000000000000
+      internalID: -4726732977839912581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 124
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae91b017b9be5a50800000000000000
+      internalID: 6511846307134545582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 124
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bc05632e352ab10800000000000000
+      internalID: 1991246216290159450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 124
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ed462e5509cee30800000000000000
+      internalID: 4534157623400128107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 124
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88567bfb87616c5d0800000000000000
+      internalID: -3042719790373837432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 124
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f4779d4a0f56a80800000000000000
+      internalID: -8474102533013942504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 124
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ee9984b924437a0800000000000000
+      internalID: -6398415935881220563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 124
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6517cc7ac1d45d0f0800000000000000
+      internalID: -1092882549097860778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaea6eac9ff6fc790800000000000000
+      internalID: -7507658935161672018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 84
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f866e331168a5f0800000000000000
+      internalID: -745239003050635411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 84
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc3ff2bfe315a0f0800000000000000
+      internalID: -1106456213228405546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 84
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447c3babe9cd40b30800000000000000
+      internalID: 4252766522439878468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 84
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31461d2bb951ebc30800000000000000
+      internalID: 4376959646314882067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 84
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9066fd6535297e930800000000000000
+      internalID: 4172464466419475977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 84
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b1aef1fe2c28f00800000000000000
+      internalID: 1117669989829712660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 84
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0416428b58a3bfcb0800000000000000
+      internalID: -4829201829430271680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 84
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cd30a45bbe82270800000000000000
+      internalID: 8226083883255585810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 84
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07d1387ee3f4df70800000000000000
+      internalID: 9211255343423805194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 84
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f6d88c469e2e930800000000000000
+      internalID: 4171152823969214248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 84
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc687877dfe62dd0800000000000000
+      internalID: -2511056033494307594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdbb44cdb3da4050800000000000000
+      internalID: 5785669483306401219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 44
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e13b6ff10b5eae0800000000000000
+      internalID: -1520615647838265748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 44
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8463324081042d0800000000000000
+      internalID: -3296608521185507137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 44
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b721b36ce1fa9f70800000000000000
+      internalID: 9194927586817419192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 44
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b8c5b4c6c310d50800000000000000
+      internalID: 6701704156322499355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 44
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be9e6169bb900070800000000000000
+      internalID: 8070621752753823411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 44
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff577e52766f23a10800000000000000
+      internalID: 1887842116699649535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 44
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d39e033f3006c560800000000000000
+      internalID: 7333549314658964438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 44
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6564610f2b3a910800000000000000
+      internalID: 1847517016387638978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 44
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b92a2a8c2dbe3cc0800000000000000
+      internalID: -3729335442421962320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 44
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fad8182daedc1080800000000000000
+      internalID: -9215245902223451403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 44
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138848f25ef00a910800000000000000
+      internalID: 1846493324241045553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6755e0404e31200800000000000000
+      internalID: 149713918704842493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geeseSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 4
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a84eecb0a20b1aa0800000000000000
+      internalID: -6189350373502859098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -226, y: -38}
+      - {x: -227, y: -3}
+      - {x: -177, y: -4}
+      - {x: -177, y: -38}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

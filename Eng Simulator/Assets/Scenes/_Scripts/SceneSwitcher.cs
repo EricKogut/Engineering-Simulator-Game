@@ -11,9 +11,11 @@ public class SceneSwitcher : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D theCollider)
     {
-
-        SceneManager.LoadScene(myScene, LoadSceneMode.Single);
-        Debug.Log("Hello It Worked");
+        if (theCollider.CompareTag("player"))
+        {
+            SceneManager.LoadScene(myScene, LoadSceneMode.Single);
+        }
+       
       
 
 
