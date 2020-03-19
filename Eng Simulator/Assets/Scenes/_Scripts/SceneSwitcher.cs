@@ -7,15 +7,14 @@ using UnityEngine.SceneManagement;
 public class SceneSwitcher : MonoBehaviour
 {
 
-    public string myScene;
+    public int myScene;
 
-    public void collision(Collider2D theCollider)
-    {   
+    public void OnTriggerEnter2D(Collider2D theCollider)
+    {
 
-        if(theCollider.CompareTag("Player") && !theCollider.isTrigger){
-
-            SceneManager.LoadScene(myScene);
-        }
+        SceneManager.LoadScene(myScene, LoadSceneMode.Single);
+        Debug.Log("Hello It Worked");
+      
 
 
 
