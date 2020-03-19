@@ -1271,6 +1271,7 @@ Tilemap:
       type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 21301078, guid: f3adf4fd8cf41a944b8139819b50f32b, type: 3}
+
   - m_RefCount: 1
     m_Data: {fileID: 1976560060291286587, guid: fe197d0b599cec045854413702032e54,
       type: 3}
@@ -2282,6 +2283,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 4417618970551119899, guid: 5e3907e19a410bc44b30d0884f995c21,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a692e5adee4ea76469c3bbab16fe7379, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ec0a48e6145fb443b8b59cfb330bab4, type: 3}
 --- !u!4 &576577507 stripped
