@@ -22,9 +22,18 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator playerAnimation;
 
+
+    static public PlayerMovement PM;
     // Start is called before the first frame update
     void Start()
+    
     {
+        if(PM == null){
+            PM = this;
+        }
+        else{
+            Debug.Log("Sorry, the Player Movement Script is being used elsewhere");
+        }
 
         playerRigidBody = GetComponent<Rigidbody2D>();
         playerAnimation = GetComponent<Animator>();
@@ -86,7 +95,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey("e") && energy > 50)
         {
             playerBoxCollider.enabled = false;
-            playerRigidBody.AddForce(currentDirection * 4000);
+            playerRigidBody.AddForce(currentDirection * 10000);
             energy -= 50;
         }
 

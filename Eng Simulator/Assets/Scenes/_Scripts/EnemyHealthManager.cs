@@ -20,6 +20,9 @@ public class EnemyHealthManager : MonoBehaviour
             Debug.Log("You've earned some experience");
             Destroy(gameObject);
         }
+        else{
+            Debug.Log("bruh");
+        }
     }
 
     public void HurtEnemy(int dmg)
