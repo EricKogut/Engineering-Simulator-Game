@@ -21,7 +21,6 @@ public class EnemyHealthManager : MonoBehaviour
             Destroy(gameObject);
         }
         else{
-            Debug.Log("bruh");
         }
     }
 
