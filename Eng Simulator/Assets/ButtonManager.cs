@@ -18,15 +18,11 @@ public class ButtonManager : MonoBehaviour
         btn.onClick.AddListener(TaskOnClick);
         spriteR = bullet.GetComponent<SpriteRenderer>();
         sprite = Resources.Load<Sprite>("Gear");
-        spriteR.sprite = null;
     }
 
     void TaskOnClick()
     {
-        Debug.Log("You have clicked the button");
-        // TODO: 
-        // - change the bullet type in the sprite renderer
-        // - increase the damage done to enemies by bullets (Bullet Movement Script)
         spriteR.sprite = sprite;
+        bullet.GetComponent<BulletMovement>().damageDealt = 50; // increasing damage through BulletMovement script
     }
 }
