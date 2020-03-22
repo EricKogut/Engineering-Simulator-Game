@@ -17,7 +17,6 @@ public class EnemyHealthManager : MonoBehaviour
         if (enemyCurrentHealth <= 0)
         {
             player.GetComponent<PlayerXP>().Experience = 1000;
-            Debug.Log("You've earned some experience");
             Destroy(gameObject);
         }
         else{

@@ -6,9 +6,9 @@ public class PlayerMovement : MonoBehaviour
 {
 
 
-
+    //Variables to describe the player
     public float playerSpeed;
-    public ShootingAbility myAbility;
+    public ShootingAbility primaryAbility;
     private Vector2 currentDirection = new Vector2(1f, 0f);
 
     private BoxCollider2D playerBoxCollider;
@@ -23,13 +23,13 @@ public class PlayerMovement : MonoBehaviour
     private Animator playerAnimation;
 
 
-    static public PlayerMovement PM;
+    static public PlayerMovement playerMovement;
     // Start is called before the first frame update
     void Start()
     
     {
-        if(PM == null){
-            PM = this;
+        if(playerMovement == null){
+            playerMovement = this;
         }
         else{
             Debug.Log("Sorry, the Player Movement Script is being used elsewhere");
@@ -48,17 +48,13 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Ability"))
         {
-            myAbility.Ability(transform.position, currentDirection, playerAnimation, playerRigidBody);
+            primaryAbility.Ability(transform.position, currentDirection, playerAnimation, playerRigidBody);
         }
 
         if (Input.GetButtonDown("UltimateAbility"))
         {
             StartCoroutine("ActivateUltimate");
-
         }
-
-
-        //movement = Vector2.zero;
 
         //Getting the horizontal axis
         //Getting the input from the user
@@ -94,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey("e") && energy > 50)
         {
-            playerBoxCollider.enabled = false;
+            playerBoxCollider.enabled = true;
             playerRigidBody.AddForce(currentDirection * 10000);
             energy -= 50;
         }
@@ -133,10 +129,10 @@ public class PlayerMovement : MonoBehaviour
             for (float j = 0.1f; j < 1; j += 0.2f)
             {
                 yield return new WaitForSeconds(0.05f);
-                myAbility.Ability(transform.position, new Vector2(i, j), playerAnimation, playerRigidBody);
-                myAbility.Ability(transform.position, new Vector2(-i, j), playerAnimation, playerRigidBody);
-                myAbility.Ability(transform.position, new Vector2(i, -j), playerAnimation, playerRigidBody);
-                myAbility.Ability(transform.position, new Vector2(-i, -j), playerAnimation, playerRigidBody);
+                primaryAbility.Ability(transform.position, new Vector2(i, j), playerAnimation, playerRigidBody);
+                primaryAbility.Ability(transform.position, new Vector2(-i, j), playerAnimation, playerRigidBody);
+                primaryAbility.Ability(transform.position, new Vector2(i, -j), playerAnimation, playerRigidBody);
+                primaryAbility.Ability(transform.position, new Vector2(-i, -j), playerAnimation, playerRigidBody);
             }
 
             //playerAnimation.StopPlayback();
