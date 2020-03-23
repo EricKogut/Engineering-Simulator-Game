@@ -13,7 +13,8 @@ public class HideButton : MonoBehaviour
     {
         foreach (Button button in buttonArray)
         {
-            button.interactable = false; // accessing each button contained in the array, setting it as non-interactable
+            if (button != null)
+                button.interactable = false; // accessing each button contained in the array, setting it as non-interactable
         }
 
     }
