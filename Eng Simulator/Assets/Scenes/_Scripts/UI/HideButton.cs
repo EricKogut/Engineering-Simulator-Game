@@ -21,7 +21,7 @@ public class HideButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.GetComponent<PlayerMovement>().Level >= 1)
+        if (player.GetComponent<PlayerMovement>().Level >= 1 && textBox != null)
         {
             textBox.SetActive(false); // getting rid of textBox with message to play more
             foreach (Button button in buttonArray)
