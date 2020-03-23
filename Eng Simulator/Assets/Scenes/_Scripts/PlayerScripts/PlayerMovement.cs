@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
 
 
+
     //Variables to describe the player
     public float playerSpeed;
     public ShootingAbility primaryAbility;
@@ -14,10 +15,10 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D playerBoxCollider;
     private Rigidbody2D playerRigidBody;
     private Vector3 movement;
+    private static int experience = 0; // player always starts with 0 experience
     public static float energy = 100f;
 
-    private Color original = new Color(255, 255, 255, 255);
-
+    private Color original;
 
 
     private Animator playerAnimation;
@@ -26,12 +27,15 @@ public class PlayerMovement : MonoBehaviour
     static public PlayerMovement playerMovement;
     // Start is called before the first frame update
     void Start()
-    
+
     {
-        if(playerMovement == null){
+
+        if (playerMovement == null)
+        {
             playerMovement = this;
         }
-        else{
+        else
+        {
             Debug.Log("Sorry, the Player Movement Script is being used elsewhere");
         }
 
@@ -139,7 +143,21 @@ public class PlayerMovement : MonoBehaviour
             playerAnimation.SetBool("ultimate", false);
         }
     }
-
+    void SetColor()
+    {
+        if (ButtonManager.original)
+        {
+            original = new Color(255, 255, 255);
+        }
+        else if (ButtonManager.mechanical)
+        {
+            original = Color.blue;
+        }
+        else
+        {
+            original = Color.green;
+        }
+    }
     void OnTriggerEnter2D(Collider2D other)
     {
 
@@ -147,6 +165,7 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.CompareTag("enemy"))
         {
             SpriteRenderer spriteR = this.GetComponent<SpriteRenderer>();
+            SetColor();
             spriteR.color = original;
             this.GetComponent<PlayerHealthManager>().HurtPlayer(10);
             StartCoroutine(Flash());
@@ -161,5 +180,29 @@ public class PlayerMovement : MonoBehaviour
         sr.color = Color.red;
         yield return new WaitForSeconds(0.5f);
         sr.color = original;
+    }
+
+    public int Experience
+    { // Experience property exposes private field for usage by other scripts
+        get
+        {
+            return experience;
+        }
+        set
+        {
+            experience += value;
+        }
+    }
+
+    public int Level
+    {
+        get
+        {
+            return (int)Mathf.Floor(experience / 1000);
+        }
+        set
+        {
+            experience = value * 1000;
+        }
     }
 }

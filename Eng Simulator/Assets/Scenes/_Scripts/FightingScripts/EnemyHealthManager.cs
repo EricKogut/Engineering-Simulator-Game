@@ -16,7 +16,7 @@ public class EnemyHealthManager : MonoBehaviour
     {
         if (enemyCurrentHealth <= 0)
         {
-            player.GetComponent<PlayerXP>().Experience = 1000;
+            player.GetComponent<PlayerMovement>().Experience = 1000;
             Destroy(gameObject);
         }
         else{
