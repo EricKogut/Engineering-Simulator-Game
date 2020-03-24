@@ -37,6 +37,9 @@ public class enemyMovement : StateMachineBehaviour
         //Note: had to normalize the variables since the numbers didnt work great with the animator
         animationVariable.SetFloat("horizontalMovement", (movement.normalized.x));
         animationVariable.SetFloat("verticalMovement", (movement.normalized.y));
+
+
+
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
@@ -46,6 +49,14 @@ public class enemyMovement : StateMachineBehaviour
         animationVariable.SetFloat("horizontalMovement", (movement.normalized.x));
         animationVariable.SetFloat("verticalMovement", (movement.normalized.y));
     }
+
+
+
+
+
+
+
+
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
     //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

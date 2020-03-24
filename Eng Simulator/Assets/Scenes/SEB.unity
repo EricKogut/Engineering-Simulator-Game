@@ -2196,6 +2196,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerMaxHealth: 100
   playerCurrentHealth: 0
+--- !u!61 &1397611444
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397611434}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.875, y: 2.5625}
+    newSize: {x: 1.875, y: 2.5625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.88, y: 1.44}
+  m_EdgeRadius: 0
 --- !u!114 &1397611445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37957,7 +37983,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081164050}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.008694, y: -1.15, z: -10}
+  m_LocalPosition: {x: 10.149939, y: -1.15, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -38172,6 +38198,26 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1397611434}
+    - target: {fileID: 2012986210516987394, guid: 5e3907e19a410bc44b30d0884f995c21,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012986210516987394, guid: 5e3907e19a410bc44b30d0884f995c21,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012986210516987394, guid: 5e3907e19a410bc44b30d0884f995c21,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012986210516987394, guid: 5e3907e19a410bc44b30d0884f995c21,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 4417618970551119899, guid: 5e3907e19a410bc44b30d0884f995c21,
         type: 3}
       propertyPath: m_Controller
@@ -38183,6 +38229,26 @@ PrefabInstance:
       value: 0.0001
       objectReference: {fileID: 0}
     - target: {fileID: 5535364742135041308, guid: 5e3907e19a410bc44b30d0884f995c21,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136689853734342814, guid: 5e3907e19a410bc44b30d0884f995c21,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136689853734342814, guid: 5e3907e19a410bc44b30d0884f995c21,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136689853734342814, guid: 5e3907e19a410bc44b30d0884f995c21,
+        type: 3}
+      propertyPath: m_UsedByComposite
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136689853734342814, guid: 5e3907e19a410bc44b30d0884f995c21,
         type: 3}
       propertyPath: m_IsTrigger
       value: 1
