@@ -34,4 +34,6 @@ public class EnemyHealthManager : MonoBehaviour
         enemyMaxHealth = max;
     }
 
+  
+
 }
