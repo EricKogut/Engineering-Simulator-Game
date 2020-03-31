@@ -83,7 +83,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 1}
+  m_Size: {x: 2.27, y: 1.35}
   m_EdgeRadius: 0
 --- !u!111 &7549394405394157137
 Animation:
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 4
-  myAbility: {fileID: 11400000, guid: bf91941c1db90d2409f0657292390d1c, type: 2}
+  primaryAbility: {fileID: 0}
 --- !u!114 &1264330176198687563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,7 +204,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   textBox: {fileID: 0}
-  startButton: {fileID: 0}
+  buttonArray:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!58 &2012986210516987394
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -218,6 +220,6 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.07237697, y: 0}
+  m_Offset: {x: 0.01, y: 0.55}
   serializedVersion: 2
-  m_Radius: 0.92762303
+  m_Radius: 1.02
