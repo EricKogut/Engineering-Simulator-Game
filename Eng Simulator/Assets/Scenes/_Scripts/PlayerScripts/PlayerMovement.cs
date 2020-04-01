@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public ShootingAbility primaryAbility;
     private Vector2 currentDirection = new Vector2(1f, 0f);
 
+
     private BoxCollider2D playerBoxCollider;
     private Rigidbody2D playerRigidBody;
     private Vector3 movement;
@@ -23,6 +24,13 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator playerAnimation;
 
+    [System.Serializable]
+    public struct NumberMap
+    {
+        public int year;
+        public int exp;
+    }
+    public NumberMap[] dictionary; // a type of hash table using the NumberMap structure
 
     static public PlayerMovement playerMovement;
     // Start is called before the first frame update
@@ -198,11 +206,12 @@ public class PlayerMovement : MonoBehaviour
     {
         get
         {
-            return (int)Mathf.Floor(experience / 1000);
+            foreach (NumberMap entry in dictionary)
+            {
+                if ((Experience - entry.exp) < 0) return entry.year; // Only when the player's experience is greater than the required
+            }              // experience to enter that year is he admitted.
+            return 5;
         }
-        set
-        {
-            experience = value * 1000;
-        }
+        // no setter as this is never manipulated manually
     }
 }
