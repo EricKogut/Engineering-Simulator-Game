@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SEB.unity
     guid: 7c883f7ddde19d2418577386ec0b8137
   - enabled: 1
@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/mainsScene.unity
     guid: c8b42131e52613f4594210ab63a20b42
+  - enabled: 1
+    path: Assets/Scenes/SEB (1).unity
+    guid: 5154719a755438444adeca5a2f4a2915
   m_configObjects: {}

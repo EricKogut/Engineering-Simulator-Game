@@ -189,7 +189,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 4
-  primaryAbility: {fileID: 0}
+  primaryAbility: {fileID: 11400000, guid: bf91941c1db90d2409f0657292390d1c, type: 2}
+  dictionary: []
 --- !u!114 &1264330176198687563
 MonoBehaviour:
   m_ObjectHideFlags: 0
