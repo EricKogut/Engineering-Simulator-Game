@@ -26,10 +26,10 @@ public class BulletMovement : MonoBehaviour
     public void movement(Vector2 direction)
     {
         theRigidBody.velocity = direction.normalized * speed;
- 
+        Debug.Log("MOVINGS");
+        Debug.Log(direction);
     }
 
-    //This 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("enemy"))
