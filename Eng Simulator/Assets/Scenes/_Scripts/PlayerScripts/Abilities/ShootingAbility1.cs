@@ -5,11 +5,11 @@ using UnityEngine;
 
 
 
-[CreateAssetMenu(menuName = "_Scripts/FightingScripts", fileName = "Shooting Ability Enemy1")]
+[CreateAssetMenu(menuName = "Scripts/Abilities/ShootingAbility", fileName = "Shooting Ability")]
 
 
 //Projectile will inherit from Generic ability
-public class ShootingAbilityEnemy : GenericAbility
+public class ShootingAbility : GenericAbility
 {
     [SerializeField]
     private GameObject myObject;

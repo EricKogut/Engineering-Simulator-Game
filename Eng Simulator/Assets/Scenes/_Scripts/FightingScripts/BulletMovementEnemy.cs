@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-//This will be used to move the bullet
-public class BulletMovement : MonoBehaviour
+public class BulletMovementEnemy : MonoBehaviour
 {
+
+
     public int damageDealt = 30;
 
     //This rigidBody will be what the builder
@@ -31,10 +31,10 @@ public class BulletMovement : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("enemy"))
+        if (other.gameObject.CompareTag("player"))
         {
             //            Destroy(other.gameObject);
-            other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageDealt);
+            other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageDealt);
             Destroy(this.gameObject);
             // TODO: add player XP each time an enemy is killed
         }
@@ -43,5 +43,4 @@ public class BulletMovement : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
-
 }
