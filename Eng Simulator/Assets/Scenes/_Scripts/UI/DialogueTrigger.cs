@@ -12,7 +12,7 @@ public class DialogueTrigger : MonoBehaviour
     public void TriggerDialogue()
     {
         _triggered = true;
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogue); // will return first active object, order in hierarchy matters
     }
     public bool EnterRadius()
     {

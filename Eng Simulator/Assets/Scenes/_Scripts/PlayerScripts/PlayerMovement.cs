@@ -32,6 +32,13 @@ public class PlayerMovement : MonoBehaviour
 
 
 
+    [System.Serializable]
+    public struct NumberMap
+    {
+        public int year;
+        public int exp;
+    }
+    public NumberMap[] dictionary; // a type of hash table using the NumberMap structure
 
     // Start is called before the first frame update
     void Start(){
@@ -225,7 +232,14 @@ public class PlayerMovement : MonoBehaviour
     //Get + set for the level property
     public int Level
     {
-        get{return (int)Mathf.Floor(experience / 1000);}
-        set{experience = value * 1000;}
+        get
+        {
+            foreach (NumberMap entry in dictionary)
+            {
+                if ((Experience - entry.exp) < 0) return entry.year; // Only when the player's experience is greater than the required
+            }              // experience to enter that year is he admitted.
+            return 5;
+        }
+        // no setter as this is never manipulated manually
     }
 }
