@@ -10,6 +10,7 @@ public class BulletMovementEnemy : MonoBehaviour
 
     //This rigidBody will be what the builder
     public Rigidbody2D theRigidBody;
+    int counter = 0;
 
     //The speed will control 
     public float speed;
@@ -21,11 +22,15 @@ public class BulletMovementEnemy : MonoBehaviour
         theRigidBody = GetComponent<Rigidbody2D>();
     }
 
+ 
 
     //This will actually move the bullet
     public void movement(Vector2 direction)
     {
         theRigidBody.velocity = direction.normalized * speed;
+        Debug.Log(theRigidBody.velocity);
+        Debug.Log("RAN");
+      
  
     }
 

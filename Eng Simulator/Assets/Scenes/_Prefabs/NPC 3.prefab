@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 3822280054896097556}
   - component: {fileID: 3822280054896097557}
   - component: {fileID: 3822280054896097558}
-  - component: {fileID: 5111289066924217661}
+  - component: {fileID: 3465555205769960390}
   m_Layer: 0
   m_Name: nerdSprite
   m_TagString: enemy
@@ -199,7 +199,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5111289066924217661
+--- !u!114 &3465555205769960390
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,7 +208,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3822280054896097552}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d05869f06d784a54fbe8c0e16d55df2d, type: 3}
+  m_Script: {fileID: 11500000, guid: cca27a6f1fedc72439ab3548f8ed95e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  primaryAbility: {fileID: 11400000, guid: 59833704feeb69e45883e797eb4526c3, type: 2}
+  myObject: {fileID: 6613843732186988833, guid: 1e28ff4007c966b438933919f5869afe,
+    type: 3}
