@@ -9,6 +9,9 @@ TagManager:
   - enemy
   - player
   - artifact
+  - right
+  - bottom
+  - left
   layers:
   - Default
   - TransparentFX

@@ -6,47 +6,34 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    //this is the UI element that will display the time
-    [SerializeField] public Text uiText;
-    [SerializeField] public float mainTimer;
-
-    //these are the private and public variables that are responsible for keeping time
-    private float timer;
-    private bool canCount = true;
-    private bool doOnce = false;
+    //intialization of all the variables including currentTime and startingTime
+    public float currentTime = 0f;
+    public float startingTime = 100f;
     public int myScene;
+    public GameObject player;
+    
 
+    //countdownText  field for the UI field
+    [SerializeField] Text countdownText;
 
-    //upon start this timer will be qeued and ready to begin
-    void Start()
+    private void Start()
     {
-        timer = mainTimer;    
+        currentTime = startingTime;
+
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        //if the timer is still greater than 0 it will proceed as is
-        if(timer>=0.0f && canCount)
+        currentTime -= 1 * Time.deltaTime;
+        countdownText.text = currentTime.ToString("0");
+
+        if(currentTime <= 0)
         {
-            timer -= Time.deltaTime;
-            uiText.text = timer.ToString("F");
+            currentTime = 0;
+            player.GetComponent<PlayerMovement>().Experience = 3000;
+            countdownText.text = "Finished the Level Congrats Time to go fight the BOSS";
+            SceneManager.LoadScene(myScene, LoadSceneMode.Single);
+        }
+    }
 
-        }
-        //if the timer is less than 0 it will be game over and seb will be reloaded
-        else if (timer <= 0.0f && !doOnce)
-        {
-            canCount = false;
-            doOnce = true;
-            uiText.text = "0.00";
-            timer = 0.0f;
-            GameOver();
-        }
-        
-    }
-    //switches back to seb once the timer is up
-    void GameOver()
-    {
-        SceneManager.LoadScene(myScene, LoadSceneMode.Single);
-    }
 }

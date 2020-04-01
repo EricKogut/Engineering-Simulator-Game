@@ -55,4 +55,10 @@ public class Main : MonoBehaviour
 
     }
 
+    public void Update()
+    {
+        //this will update the time delay between the spawning of ducks to increase the difficulty for the player
+
+        enemySpawnPerSecond += 0.0005f;
+    }
 }
