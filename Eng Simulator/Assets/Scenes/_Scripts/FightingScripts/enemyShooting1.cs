@@ -5,11 +5,14 @@ using UnityEngine;
 public class enemyShooting1 : MonoBehaviour
 {
 
+    //This will call the current position
     private Transform currentPosition;
     private ShootingAbility primaryAbility;
     new Vector3 currentDirection;
+
+    //This will be used to store the o
     public GameObject myObject;
-    int counter = 0;
+
 
     // Start is called before the first frame update
     void Start()
