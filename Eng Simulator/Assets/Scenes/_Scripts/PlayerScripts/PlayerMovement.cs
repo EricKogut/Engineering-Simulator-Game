@@ -10,19 +10,27 @@ public class PlayerMovement : MonoBehaviour
     //Variables to describe the player
     public float playerSpeed;
     public ShootingAbility primaryAbility;
-    private Vector2 currentDirection = new Vector2(1f, 0f);
+    private Vector2 _currentDirection = new Vector2(1f, 0f);
+    private BoxCollider2D _playerBoxCollider;
+    private Rigidbody2D _playerRigidBody;
+    private Vector3 _movement;
+    private Animator _playerAnimation;
 
-
-    private BoxCollider2D playerBoxCollider;
-    private Rigidbody2D playerRigidBody;
-    private Vector3 movement;
-    private static int experience = 0; // player always starts with 0 experience
+    //Static  variables to be used by other scrips as well
+    private static int experience = 0; 
     public static float energy = 100f;
 
-    private Color original;
+    //Crating a color variable to be used to change the color of the player
+    private Color _original;
+
+    //static variable to describe the script
+    static public PlayerMovement playerMovement;
 
 
-    private Animator playerAnimation;
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
     [System.Serializable]
     public struct NumberMap
@@ -32,176 +40,196 @@ public class PlayerMovement : MonoBehaviour
     }
     public NumberMap[] dictionary; // a type of hash table using the NumberMap structure
 
-    static public PlayerMovement playerMovement;
     // Start is called before the first frame update
-    void Start()
+    void Start(){
 
-    {
 
+        //instantiating the static playermovement singleton if it does not already exist
         if (playerMovement == null)
         {
             playerMovement = this;
         }
-        else
-        {
-            Debug.Log("Sorry, the Player Movement Script is being used elsewhere");
-        }
 
-        playerRigidBody = GetComponent<Rigidbody2D>();
-        playerAnimation = GetComponent<Animator>();
-        playerBoxCollider = GetComponent<BoxCollider2D>();
+        else{Debug.Log("Sorry, the Player Movement Script is being used elsewhere");}
+
+
+        //Getting the components of the palyer
+        _playerRigidBody = GetComponent<Rigidbody2D>();
+        _playerAnimation = GetComponent<Animator>();
+        _playerBoxCollider = GetComponent<BoxCollider2D>();
     }
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
 
     // Update is called once per frame
     void FixedUpdate()
     {
 
-        //This will allow players to use abilities/shoot etc
+        //Thees will check to see if the palyer would like to use abilities/shoot etc
 
+        //Shooting
         if (Input.GetButtonDown("Ability"))
         {
-            primaryAbility.Ability(transform.position, currentDirection, playerAnimation, playerRigidBody);
+            primaryAbility.Ability(transform.position, _currentDirection, _playerAnimation, _playerRigidBody);
         }
 
+        //Ultimate coroutine
         if (Input.GetButtonDown("UltimateAbility"))
         {
+            //Starting the couroutine
             StartCoroutine("ActivateUltimate");
         }
 
-        //Getting the horizontal axis
+
         //Getting the input from the user
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        _movement.x = Input.GetAxisRaw("Horizontal");
+        _movement.y = Input.GetAxisRaw("Vertical");
 
-        if (movement.magnitude > 0)
+        //If the player has moved, run this
+        if (_movement.magnitude > 0)
         {
-            currentDirection = movement;
-            movement.x = Input.GetAxisRaw("Horizontal");
-            movement.y = Input.GetAxisRaw("Vertical");
-            playerAnimation.SetFloat("horizontalMovement", movement.x);
-            playerAnimation.SetFloat("verticalMovement", movement.y);
-            playerAnimation.SetBool("isMoving", true);
-        }
-        else
-        {
-            playerAnimation.SetBool("isMoving", false);
+            _currentDirection = _movement;
+            _movement.x = Input.GetAxisRaw("Horizontal");
+            _movement.y = Input.GetAxisRaw("Vertical");
+            _playerAnimation.SetFloat("horizontalMovement", _movement.x);
+            _playerAnimation.SetFloat("verticalMovement", _movement.y);
+            _playerAnimation.SetBool("isMoving", true);
         }
 
+
+        //Otherwise set the animation variable to false
+        else{_playerAnimation.SetBool("isMoving", false);}
+
+
+        //Calling the movement script
         Movement();
 
-        if (Input.GetKey("left shift") && energy > 0 && movement.magnitude > 0)
+
+
+        //Shift input -> Sprint command
+        if (Input.GetKey("left shift") && energy > 0 && _movement.magnitude > 0)
         {
             Sprinting();
-            energy--;
-
+            energy--; //Lowering the energy value of the player
         }
-        else if (energy < 100)
+
+        //Adding energy if the energy is under 100
+        else if (energy < 100)  {energy = energy + 0.1f;}
+
+        //e input -> dash ability
+        if (Input.GetKey("e") && energy > 20)
         {
-            energy = energy + 0.1f;
+            _playerRigidBody.AddForce(_currentDirection * 10000);
+            energy -= 20; // This ability removes 20 energy per use
         }
 
-        if (Input.GetKey("e") && energy > 50)
-        {
-            playerBoxCollider.enabled = true;
-            playerRigidBody.AddForce(currentDirection * 10000);
-            energy -= 50;
-        }
-
-        playerBoxCollider.enabled = true;
     }
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+//The following are helper methods for the code used above
+
+
+
+    //Movement Script when player uses wasd
     void Movement()
     {
         //Getting the position, adding change
-        playerRigidBody.MovePosition(transform.position + movement.normalized * playerSpeed * Time.deltaTime);
-
-        //I had to normalize the vector to make sure that the mvement is not faster moving diagonally
-
+        _playerRigidBody.MovePosition(transform.position + _movement.normalized * playerSpeed * Time.deltaTime);
     }
 
-    public IEnumerator AbilityEnum()
-    {
-
-        return null;
-    }
-
+    //Sprinting script when player presses shift
     void Sprinting()
     {
-        playerRigidBody.AddForce(currentDirection * 300);
+        _playerRigidBody.AddForce(_currentDirection * 300);
     }
 
+
+    //Ultimate Ability IEnumeration method
     IEnumerator ActivateUltimate()
     {
-        playerAnimation.SetBool("ultimate", true);
+
+        //Settig the ultimate ability animation to be true
+        _playerAnimation.SetBool("ultimate", true);
+
+        //Using for loops to generate bullets
         for (float i = 0.1f; i < 1; i += 0.2f)
         {
-            //playerAnimation.Play("ultimateAbility");
-            //playerAnimation.StopPlayback();
             for (float j = 0.1f; j < 1; j += 0.2f)
             {
+                //Waiting in between bullets
                 yield return new WaitForSeconds(0.05f);
-                primaryAbility.Ability(transform.position, new Vector2(i, j), playerAnimation, playerRigidBody);
-                primaryAbility.Ability(transform.position, new Vector2(-i, j), playerAnimation, playerRigidBody);
-                primaryAbility.Ability(transform.position, new Vector2(i, -j), playerAnimation, playerRigidBody);
-                primaryAbility.Ability(transform.position, new Vector2(-i, -j), playerAnimation, playerRigidBody);
+                primaryAbility.Ability(transform.position, new Vector2(i, j), _playerAnimation, _playerRigidBody);
+                primaryAbility.Ability(transform.position, new Vector2(-i, j), _playerAnimation, _playerRigidBody);
+                primaryAbility.Ability(transform.position, new Vector2(i, -j), _playerAnimation, _playerRigidBody);
+                primaryAbility.Ability(transform.position, new Vector2(-i, -j), _playerAnimation, _playerRigidBody);
             }
 
-            //playerAnimation.StopPlayback();
-            playerAnimation.SetBool("ultimate", false);
+            //Stopping the player animation
+            _playerAnimation.SetBool("ultimate", false);
         }
     }
+
+
+
+    //Setting the color of the player based on what the player chooses with regards to their discipline
     void SetColor()
     {
         if (ButtonManager.original)
         {
-            original = new Color(255, 255, 255);
+            _original = new Color(255, 255, 255);
         }
         else if (ButtonManager.mechanical)
         {
-            original = Color.blue;
+            _original = Color.blue;
         }
         else
         {
-            original = Color.green;
+            _original = Color.green;
         }
     }
+
+
+    //Checking if the player has collided with an enemy
     void OnTriggerEnter2D(Collider2D other)
     {
 
-        Debug.Log("You've been triggered");
+        //If it does the script will change the color of the sprite and damage the player
         if (other.gameObject.CompareTag("enemy"))
         {
             SpriteRenderer spriteR = this.GetComponent<SpriteRenderer>();
             SetColor();
-            spriteR.color = original;
+            spriteR.color = _original;
             this.GetComponent<PlayerHealthManager>().HurtPlayer(10);
+
+            //Flashing the color red, and returning the color to the original
             StartCoroutine(Flash());
-            Debug.Log("You've been damaged");
         }
     }
 
+
+    //Method to return the color of the sprite to the oroginal color
     IEnumerator Flash()
     {
         SpriteRenderer sr = this.GetComponent<SpriteRenderer>();
-        Color original = sr.color;
+        Color _original = sr.color;
         sr.color = Color.red;
         yield return new WaitForSeconds(0.5f);
-        sr.color = original;
+        sr.color = _original;
     }
 
+
+    //Get + set for experience property
     public int Experience
-    { // Experience property exposes private field for usage by other scripts
-        get
-        {
-            return experience;
-        }
-        set
-        {
-            experience += value;
-        }
+    {
+        get{return experience;}
+        set{experience += value;}
     }
 
+    //Get + set for the level property
     public int Level
     {
         get
